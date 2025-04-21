@@ -1,6 +1,8 @@
 'use client';
 import React, { useState } from "react";
 import './navbar.css';
+import Image from 'next/image';
+import animacao from '@/image/animacao.png'
 
 const Navbar: React.FC = () => {
   // Para alterar as classes da barra de hambúrguer
@@ -28,6 +30,16 @@ const Navbar: React.FC = () => {
           <div className={burgerClass}></div>
           <div className={burgerClass}></div>
         </div>
+
+        {/* Adicionando a imagem do logo */}
+        <Image 
+          src={animacao}  // Caminho correto para a imagem
+          alt="Logo da loja"
+          className="logo"
+          width={150}  // Largura desejada
+          height={150} // Altura desejada
+        />
+
       </nav>
 
       <div className={menuClass}>

@@ -100,3 +100,20 @@
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
   }
   
+  /* Ajuste da imagem */
+nav .logo {
+    flex: 1;
+    height: 100%; /* A altura da imagem será ajustada para a altura da navbar */
+    width: auto;  /* A largura será ajustada proporcionalmente */
+    max-height: 3em; /* Garante que a imagem tenha uma altura máxima */
+    object-fit: contain; /* Preserva as proporções da imagem */
+    margin-left: 1em; /* Ajuste da margem à esquerda */
+  }
+  
+  /* Responsividade para a imagem */
+  @media (max-width: 768px) {
+    nav .logo {
+      max-height: 2.5em; /* Ajuste a altura da imagem para telas menores */
+    }
+  }
+  
