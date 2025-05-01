@@ -1,0 +1,41 @@
+.entrega-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    color: #333;
+  }
+  
+  .entrega-titulo {
+    font-size: 2rem;
+    color: #db2777;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .entrega-opcao {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
+  .entrega-opcao h2 {
+    margin: 0 0 0.25rem;
+    font-size: 1.25rem;
+    color: #111;
+  }
+  
+  .entrega-opcao p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .entrega-icone {
+    margin-top: 4px;
+    flex-shrink: 0;
+  }
