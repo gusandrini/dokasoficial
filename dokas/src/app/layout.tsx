@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps) {
             <div>
               <h3 className="text-lg font-semibold mb-2">Sobre Nós</h3>
               <p className="text-sm">
-                A Doce Encanto oferece brigadeiros, brookies, gelinhos e delícias para festas. Feito com amor por Gustavo e Maria.
+                A Dokas oferece brownies, pão de mel, cookies, gelinhos e delícias para festas.
               </p>
             </div>
 
@@ -56,7 +56,6 @@ export default function RootLayout({ children }: LayoutProps) {
               <h3 className="text-lg font-semibold mb-2">Siga-nos</h3>
               <div className="flex flex-col space-y-2">
                 <a href="https://instagram.com/sualojinha" target="_blank" className="hover:text-pink-600">Instagram</a>
-                <a href="https://facebook.com/sualojinha" target="_blank" className="hover:text-pink-600">Facebook</a>
               </div>
             </div>
           </div>
