@@ -18,13 +18,11 @@ const Contato = () => {
 
       {/* Informações de contato */}
       <div className="mb-6 grid gap-2">
-        <p className="flex items-center gap-2"><FaMapMarkerAlt /> Rua das Delícias, 123 - Santo André, SP</p>
-        <p className="flex items-center gap-2"><FaClock /> Atendimento: Seg a Sáb das 10h às 18h</p>
         <p className="flex items-center gap-2"><FaPhone /> (11) 94021-9422</p>
         <p className="flex items-center gap-2">
           <FaInstagram />
           <a href="https://instagram.com/sualoja" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:underline">
-            @sualoja
+            @dokasoficial
           </a>
         </p>
       </div>
