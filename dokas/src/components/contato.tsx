@@ -19,6 +19,7 @@ const Contato = () => {
 
       <div className="info-contato">
         <p><FaPhone /> (11) 94021-9422</p>
+        <p><FaPhone /> (11) 96222-1054</p>
         <p>
           <FaInstagram />
           <a href="https://instagram.com/sualoja" target="_blank" rel="noopener noreferrer">
