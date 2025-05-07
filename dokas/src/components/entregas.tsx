@@ -9,7 +9,7 @@ const Entrega = () => {
       <h1 className="entrega-titulo">Entrega & Retirada</h1>
 
       <div className="entrega-opcao">
-        <FaHandshake size={32} color="#db2777" style={{ marginTop: '4px' }} />
+        <FaHandshake size={32} color="#db2777" />
         <div>
           <h2>Entrega Combinada</h2>
           <p>Após a compra, entraremos em contato para combinar o melhor horário e local para entrega com você.</p>
@@ -17,7 +17,7 @@ const Entrega = () => {
       </div>
 
       <div className="entrega-opcao">
-        <FaStore size={32} color="#db2777" style={{ marginTop: '4px' }} />
+        <FaStore size={32} color="#db2777" />
         <div>
           <h2>Retirada no Local</h2>
           <p>Você também pode optar por retirar seu pedido em nosso ponto de apoio. O endereço será enviado pelo WhatsApp após a confirmação do pedido.</p>
